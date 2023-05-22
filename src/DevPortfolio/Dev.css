@@ -1,0 +1,729 @@
+@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
+.box{
+	box-sizing:border-box;
+}
+body{
+	margin:0px;
+	height:100%;
+    background-color: #ECF0F3;
+    color: #000000;
+}
+[class*="col-"]{
+	float:left;
+	padding:0px;
+}
+a:link{
+	text-decoration:black;
+}
+.col-1{
+	width:8.33%;
+}
+.col-2{
+	width:16.66%;
+}
+.col-3{
+	width:25%;
+}
+.col-4{
+	width:33.33%;
+}
+.col-5{
+	width:41.66%;
+}
+.col-6{
+	width:50%;
+}
+.col-7{
+	width:58.33%;
+}
+.col-8{
+	width:66.66%;
+}
+.col-9{
+	width:75%
+}
+.col-10{
+	width:83.33%
+}
+.col-11{
+	width:91.66%	
+}
+.col-12{
+	width:100%
+}
+.col-13{
+	width:14.2%;
+}
+.col-14{
+	width:20%;
+}
+.col-15{
+	width:15%;
+}
+.container{
+	position: relative;
+}
+.row::after{
+	content:"";
+	clear:both;
+	display:table;
+}
+
+.center{
+    text-align: center;
+}
+
+.logo_1{
+    position: relative;
+    width: 179px;
+    height: 179px;
+    left: 0px;
+    top: -14px;
+    
+}
+.home_1{
+    position: absolute;
+    width: 74px;
+    height: 29px;
+    left: 558px;
+    top: 61px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    /* identical to box height */
+    
+    text-align: center;
+    
+    color: #000000
+}
+.about_1{
+    position: absolute;
+    left: 695px;
+    top: 61px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+/* identical to box height */
+
+    text-align: center;
+
+    color: #000000;
+}
+.skills_1{
+    position: absolute;
+    left: 845px;
+    top: 61px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+/* identical to box height */
+
+    text-align: center;
+
+    color: #000000;
+}
+.blog_1{
+    position: absolute;
+    left: 990px;
+    top: 61px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+/* identical to box height */
+
+    text-align: center;
+
+    color: #000000;
+
+}
+.contact_1{
+    position: absolute;
+    left: 1135px;
+    top: 61px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+/* identical to box height */
+
+    text-align: center;
+
+    color: #000000;
+
+}
+.DevH1{
+    position: relative;
+    bottom: 25px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 29px;
+/* identical to box height */
+
+    text-align: center;
+
+    color: #000000;
+}
+.DevH2{
+    position: relative;
+    bottom: 50px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 52px;
+    line-height: 63px;
+/* identical to box height */
+
+    text-align: center;
+
+    color: #000000;
+}
+.DevH3{
+    position: relative;
+    bottom: 100px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 42px;
+    line-height: 51px;
+/* identical to box height */
+
+    text-align: center;
+
+    color: #000000;
+}
+.DevH4{
+    position: relative;
+    bottom: 150px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 51px;
+/* identical to box height */
+
+    text-align: center;
+
+    color: #EABF11;
+    background: linear-gradient(180deg, #767676 0%, #000000 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+}
+.DevH5{
+    position: relative;
+    bottom: 175px;
+    padding: 0 188px 0 188px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+
+    color: #000000;
+}
+.s{
+    position: absolute;
+    top: 590px;
+    left: 27.5%;
+}
+.flex{
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+}
+.socialbtn{
+    position: relative;
+    width: 75px;
+    height: 75px;
+    left: 0;
+    top: 0;
+}
+.aboutdev{
+    position: relative;
+    bottom: 110px;
+    left: 69px;
+
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 58px;
+/* identical to box height */
+
+    text-align: left;
+
+    color: #000000;
+}
+.whodev{
+    position: relative;
+    bottom: 160px;
+    left: 69px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 52px;
+    line-height: 63px;
+/* identical to box height */
+
+    text-align: left;
+
+    color: #000000;
+}
+.pdev{
+    position: relative;
+    bottom: 180px;
+    left: 69px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    display: flex;
+    align-items: center;
+    text-align: left;
+
+    color: #000000;
+}
+.aboutpic{
+    position: relative;
+    width: 490px;
+    height: 503px;
+    left: 112px;
+    top: 0px;
+    box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.86);
+    border-radius: 50%;
+}
+.skilldev{
+    position: relative;
+    bottom: 150px;
+    left: 69px;
+
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 58px;
+/* identical to box height */
+
+    text-align: left;
+
+    color: #000000;
+}
+.whatdev{
+    position: relative;
+    bottom: 200px;
+    left: 69px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 52px;
+    line-height: 63px;
+/* identical to box height */
+
+    text-align: left;
+
+    color: #000000;
+}
+.sicon{
+    position: relative;
+    bottom: 200px;
+}
+.iconpic{
+    position: relative;
+    top: 14px;
+    left: 26px;
+    width: 36px;
+    height: 36px;
+}
+.sk{
+    position: relative;
+    bottom: 47.5px;
+    left: 30px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+/* identical to box height */
+
+    text-align: center;
+
+    color: #000000;
+}
+.skillbtn{
+    width: 150px;
+    height: 65px;
+    background: #D9D9D9;
+    box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 25px;
+    transition:0.3s;
+	transition-timing-function: ease-in-out;
+	border: none;
+    
+}
+.ppic{
+    position: relative;
+    width: 600px;
+    height: 450px;
+    left: 62px;
+    top: 0;
+    border-radius: 2.5px;
+    box-shadow: 4px 4px 2px 2px rgba(196, 196, 196, 0.212);
+    transition:0.3s;
+	transition-timing-function: ease-in-out;
+	border: none;
+}
+.pr{
+    position: relative;
+    bottom: 200px;
+}
+.devmore{
+    position: relative;
+    width: 201px;
+    height: 47px;
+    left: 0;
+    bottom: 150px;
+    background: linear-gradient(180deg, #000000 0%, #2F2F2F 100%);
+    border-radius: 5px;
+    border: none;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+/* identical to box height */
+
+    text-align: center;
+
+    color: #ffffff;
+}
+div .devmore:hover{
+    cursor: pointer;
+}
+div .skillbtn:hover{
+    scale: 1.1;
+    cursor: pointer;
+}
+.mw .ppic:hover{
+    scale: 1.025;
+    box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.719);
+
+}
+.devblog{
+    position: relative;
+    width: 339px;
+    height: 541px;
+
+    background: #D9D9D9;
+    box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 25px;
+}
+.blogpic{
+    position: relative;
+    width: 339px;
+    height: 202px;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+}
+.bloghead{
+    position: relative;
+    left: 28px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 34px;
+/* identical to box height */
+
+    text-align: left;
+
+    color: #000000;
+}
+.blogp{
+    position: relative;
+    left: 28px;
+    bottom: 20px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    width: 290px;
+    height: 97px;
+}
+.tags{
+    position: relative;
+    left: 29px;
+    width: 169px;
+    height: 35px;
+    background: #979797;
+    border-radius: 45px;
+}
+.tag{
+    position: relative;
+    width: 100%;
+    height: 29px;
+    left: 15px;
+    top: 3px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+/* identical to box height */
+
+
+color: #000000;
+}
+.readblog{
+    position: relative;
+    width: 138px;
+    height: 37px;
+    left: 111px;
+    top: 29px;
+
+    background: linear-gradient(180deg, #000000 0%, #2F2F2F 100%);
+    border: none;
+    border-radius: 15px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+
+    color: #ffffff;
+    cursor: pointer;
+}
+.inputform{
+    position: relative;
+    width: 855px;
+    height: 1150px;
+    bottom: 200px;
+    left: 213px;
+
+    background: #ECF0F3;
+    box-shadow: 4px 8px 4px 8px rgba(0, 0, 0, 0.25);
+    border-radius: 25px;
+}
+.inputhead{
+    position: relative;
+    width: 191px;
+    height: 39px;
+    left: 73px;
+    margin-top: 25px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 39px;
+/* identical to box height */
+
+    text-align: left;
+
+    color: #000000;
+}
+.m{
+    margin-top: 74px;
+}
+.inputspace{
+    position: relative;
+    width: 352px;
+    height: 66px;
+    left: 70px;
+    bottom: 25px;
+
+    background: #FFFFFF;
+    box-shadow: 2px 4px 4px 2px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+    border: none;
+}
+.inputform textarea{
+    width: 695px;
+    height: 215px;
+}
+.submitdevform{
+    position: relative;
+    width: 387px;
+    height: 67px;
+
+    background: linear-gradient(180deg, #000000 0%, #2F2F2F 100%);
+    border-radius: 15px;
+    border: none;
+    width: 249px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 39px;
+/* identical to box height */
+
+    text-align: center;
+
+    color: #ffffff;
+    cursor: pointer;
+
+}
+.copyrightdev{
+    color: black;
+    font-size: 20px;
+    font-weight: 35s0;
+    text-align: center;
+}
+
+@media only screen and (max-width: 600px) {
+    .logo_1{
+        width: 150px;
+        height: 150px;
+    }
+    .navbardev{
+        display: none;
+    }
+    .DevH1{
+        font-size: 4vw;
+    }
+    .DevH2{
+        font-size: 8vw;
+    }
+    .DevH3{
+        font-size: 6vw;
+    }
+    .DevH4{
+        font-size: 6vw;
+    }
+    .DevH5{
+        font-size: 4.5vw;
+        line-height: 30px;
+        padding: 25px 25px 0 25px;
+    }
+    .socialbtn{
+        width: 50px;
+        height: 50px;
+    }
+    .s{
+        top: 700px;
+        width: 50%;
+    }
+    .flex{
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+    }
+    .aboutdev{
+        font-size: 10vw;
+        left: 25px;
+    }
+    .whodev{
+        font-size: 8vw;
+        left: 25px;
+    }
+    .pdev{
+        width: 180%;
+        line-height: 30px;
+        font-size: 4.5vw;
+        left: 25px;
+    }
+    .mw{
+        width: 100%;
+    }
+    .aboutpic{
+        display: none;
+    }
+    .skilldev{
+        font-size: 10vw;
+        width: 90%;;
+        left: 25px;
+        bottom: 200px;
+    }
+    .whatdev{
+        font-size: 8vw;
+        bottom: 250px;
+        left: 25px;
+        width: 90%;
+    }
+    .skillbtn{
+        margin-bottom: 25px;
+        margin-left: 1px;
+    }
+    .ppic{
+        width: 90%;
+        left: 25px;
+        height: 300px;
+        margin-bottom: 45px;
+    }
+    .pr{
+        width: 98%;
+
+    }
+    .devmore{
+        bottom: 200px;
+    }
+    .blogpic{
+        width: 100%;
+    }
+    .devblog{
+        width: 80%;
+        margin-bottom: 25px;
+    }
+    .readblog{
+        left: 30%;
+    }
+    .inputform{
+        left: 0px;
+        width: 98%;
+        height: 1000px;
+    }
+    .inputhead{
+        font-size: 6vw;
+        left: 45px;
+    }
+    .inputspace{
+        left: 45px;
+        bottom: 10px;
+        width: 60%;
+        height: 35px;
+    }
+    .inputform textarea{
+        width: 75%;
+
+    }
+    .submitdevform{
+        font-size: 5vw;
+    }
+    .copyrightdev{
+        font-size: 4vw;
+        font-weight: 500;
+    }
+}
